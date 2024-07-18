@@ -4,7 +4,7 @@ public class Carro extends Veiculo{
     }
 
     double calculaIpva(double valorTabela) {
-        double ipva = valorTabela * 4;
+        double ipva = valorTabela * 0.04;
         setIpva(ipva);
         return ipva;
     }

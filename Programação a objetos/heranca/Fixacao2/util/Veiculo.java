@@ -57,11 +57,10 @@ public class Veiculo {
     // METODOS ADICIONIS
 
     void imprimirFicha() {
-        System.out.println("Informações: \n"
-                + "modelo " + getModelo() + "\n"
-                + "valorTabela " + getValorTabela() + "\n"
-                + "cor " + getCor() + "\n"
-                + "combustivel " + getCombustivel() + "\n"
-                + "IPVA " + getIpva());
+        System.out.println("modelo: " + getModelo() + "\n"
+                + "valorTabela: " + getValorTabela() + "\n"
+                + "cor: " + getCor() + "\n"
+                + "combustivel: " + getCombustivel() + "\n"
+                + "IPVA: " + getIpva());
     }
 }
